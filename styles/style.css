@@ -1,0 +1,137 @@
+/* primary style */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    background-color:white; 
+    margin: 150px 0;
+}
+/* this is navigation style */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 240px;
+}
+.about-nav{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+.nav-title{
+    padding-top: 6px;
+    font-weight: 700;
+    font-size: 40px;
+}
+/* architects group style */
+.architects-group{
+    padding: 0 240px;
+}
+.architects-tumble{
+    text-align: center;
+}
+.architects-title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.architects-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+.primary-btn{
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    
+}
+.banner img{
+    width:100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* Quick list of Our Features */
+.feature-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0 250px;
+    gap: 50px;
+}
+.feature-plan-img{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.feature-plan-img img{
+    width: 270px;
+    height: 250px;
+}
+.our-plan{
+    padding-top: 160px;
+    padding-right: 30px;
+}
+.plan-title{
+    font-weight: 600;
+    font-size: 30px;
+}
+.title-1{
+    color: gray;
+}
+.title-2{
+    font-weight: 800;
+    color: black;
+}
+.title-3{
+    font-weight: 800;
+    color: #FF900E;
+}
+/* experience part style */
+
+.experience-detail{
+    display: flex;
+    gap:80px;
+    margin-left: 220px;  
+}
+.info-title{
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+.experience-description-all{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 15px 20px 15px 15px ;
+    margin-bottom: 15px;
+    color: #727272;
+}
+.architecture img{
+    width: 480px;
+    height: 800px;
+}
+.experience-detail-description{
+    width: 500px;
+    height: 700px;
+}
+/* some fact style */
+.fact-header{
+    padding-top: 50px;
+    padding-left: 220px;
+}
+.my-work{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.some-text{
+    /* text-align: center; */
+}

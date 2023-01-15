@@ -1,4 +1,6 @@
-/* primary style */
+/*--------------------
+ primary style 
+ --------------------*/
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -7,7 +9,9 @@ section{
     background-color:white; 
     margin: 150px 0;
 }
-/* this is navigation style */
+/*----------------------------
+ this is navigation style 
+ ----------------------------*/
 header{
     background-color: rgba(255, 144, 14, 0.1);
 }
@@ -29,7 +33,9 @@ header{
     font-weight: 700;
     font-size: 40px;
 }
-/* architects group style */
+/*-----------------------
+ architects group style 
+ -----------------------*/
 .architects-group{
     padding: 0 240px;
 }
@@ -60,7 +66,9 @@ header{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-/* Quick list of Our Features */
+/*---------------------------
+ Quick list of Our Features 
+ ---------------------------*/
 .feature-info{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -95,7 +103,9 @@ header{
     font-weight: 800;
     color: #FF900E;
 }
-/* experience part style */
+/*------------------------
+ experience part style 
+ ------------------------*/
 
 .experience-detail{
     display: flex;
@@ -105,14 +115,39 @@ header{
 .info-title{
     font-weight: 700;
     font-size: 30px;
-    
+    border-left:5px solid #FF900E;
+    padding-left: 10px;   
+}
+.experience-btn{
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    left: 750px;
+    top: 2548px;
+    background-color: #FF900E;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.experience-btn h1{
+    font-size:35px;
+    font-weight: 800;
+}
+.experience-btn p{
+    padding-bottom: 20px;
+    font-size: 17px;
 }
 .experience-description-all{
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     padding: 15px 20px 15px 15px ;
     margin-bottom: 15px;
+}
+.experience-description-all p{
     color: #727272;
+}
+.experience-description{
+    color:#727272 ;
 }
 .architecture img{
     width: 480px;
@@ -122,13 +157,103 @@ header{
     width: 500px;
     height: 700px;
 }
-/* some fact style */
-.fact-header{
+/*------------------------------
+ achievement section style 
+ -------------------------------*/
+.achievement-header{
     padding-top: 50px;
     padding-left: 220px;
 }
 .my-work{
     display: flex;
     justify-content: space-evenly;
+    margin: 40px 155px;
+    text-align: center;
+    
+}
+.my-work > div{
+    height: 180px;
+    width: 220px;
+    border: 1px solid #FF900E;
+    padding-top: 20px;
+    border-radius: 8px;
+}
+.title-description{
+    color: #727272;
+}
+.my-work > div:hover{
+    background-color: rgb(252, 157, 252);
+    border: none;
+    box-shadow: 10px 10px  25px rgb(234, 169, 234);
+}
+/*-----------------------------------------
+ we are making design better for everyone 
+ -----------------------------------------*/
+ .making-design{
+    display: flex;
+    gap: 70px;
+    margin: 0px 220px;
+ }
+ .color-text{
+    color: #FF900E;
+ }
+ .design-info i{
+    color: #FF900E;
+ }
+ .design-info p{
+    color: #727272;
+ }
+ .design-info h1{
+    font-size: 30px;
+ }
+ .design-info button{
+    margin-top: 37px;
+ }
+ .group-work-image img{
+    border-radius: 8px;
+ }
+
+/*------------------------------
+ our sponsors logo section style 
+ ------------------------------*/
+.sponsors-header{
+    text-align: center;
+}
+.sponsors-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.sponsors-description{
+    color: #727272;
+}
+.sponsors-company-logo{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 100px;
+}
+.sponsors-company-logo img{
+    height: 40px;
+    width: 100px;
+    mix-blend-mode: luminosity;
+}
+/*-------------------
+ footer style 
+ --------------------*/
+footer{
+    height: 250px;
+    width: 100%;
+}
+ .website-footer{
+    width: 1100px;
+    height: 100px;
+    background-color:  #FFF4E7;
+    border-radius: 8px;
+    margin-left: 220px;
 
 }
+.footer-text{
+    text-align: center;
+    padding-top: 40px;
+    color: #727272;
+}
+
